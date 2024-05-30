@@ -1,0 +1,35 @@
+manufacturer: Cisco
+model: IIR1101-K9
+part_number: IR1101-K9
+slug: cisco-ir1101-k9
+u_height: 3
+is_full_depth: false
+weight: 2.25
+weight_unit: lb
+airflow: passive
+power-ports:
+  - name: DC-A
+    type: dc-terminal
+    maximum_draw: 12
+    allocated_draw: 9.8
+  - name: DC-B
+    type: dc-terminal
+    maximum_draw: 12
+    allocated_draw: 9.8
+interfaces:
+  - name: GigabitEthernet0/0/0
+    type: 100base-tx
+  - name: FastEthernet0/0/1
+    type: 100base-tx
+  - name: FastEthernet0/0/2
+    type: 100base-tx
+  - name: FastEthernet0/0/3
+    type: 100base-tx
+  - name: FastEthernet0/0/4
+    type: 100base-tx
+console-ports:
+  - name: con 0
+    type: rj-45
+  - name: usb
+    type: usb-mini-b
+
